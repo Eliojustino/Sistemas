@@ -1,3 +1,11 @@
+/**************************************
+ * Autor: Cruz Ortega Elio Justino    *
+ * Fecha Creación: 22/03/23           *
+ * Fecha Actualización: 22/03/23	  *
+ * Descripción: Matriz Transpuesta	  *
+ **************************************/
+
+
 package arreglos;
 public class Trans {
 	public static void main(String[] args) {
