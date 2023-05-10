@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Tarea1 {
 	static char letras[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z'};
-	static int numero[] = {0,1,2,3,4,5,6,7,8,9};
+	static int numero[] = {'0','1','2','3','4','5','6','7','8','9'};
 	static final int SUMA = 1;
 	static final int PRODUCTO = 2;
 	static final int IDENTIFICADOR = 4;
@@ -13,6 +13,7 @@ public class Tarea1 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		char caracter;
+		
 		
 		System.out.println("ingresá un caracter cualquiera: ");
 		caracter = entrada.nextLine().toLowerCase().charAt(0);
